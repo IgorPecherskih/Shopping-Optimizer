@@ -17,7 +17,7 @@
 // Options
 
 var SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1AxKTTIUwnbsFpSmE-W6XhisP-arYtEC0AXKeoCLPgtE/edit";
-var daysAgo = 365; // Період для збору статистики в днях
+var daysAgo = 90; // Період для збору статистики в днях
 
 function main() {
   Logger.log("Початок обробки даних за останні " + daysAgo + " днів..."); // Початок логування
